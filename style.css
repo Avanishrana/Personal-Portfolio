@@ -252,7 +252,7 @@ header.scrolled {
 }
 
 
-.hero-label {
+/*.hero-label {
 
     color:
         var(--gold);
@@ -261,6 +261,13 @@ header.scrolled {
 
     font-size: 11px;
 
+}*/
+.hero-label {
+    color: var(--gold);
+    letter-spacing: 5px;
+    font-size: 11px;
+    position: relative;
+    top: -50px;
 }
 
 
