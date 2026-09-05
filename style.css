@@ -286,12 +286,19 @@ header.scrolled {
     font-size: 11px;
 
 }
-.hero-label {
-    color: var(--gold);
-    letter-spacing: 5px;
-    font-size: 11px;
-    position: relative;
-    top: -20px;
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .hero-label {
+
+        position: relative;
+
+        top: -20px;
+
+    }
+
 }
 
 
