@@ -37,6 +37,7 @@ window.addEventListener(
 );
 
 
+
 /* =====================================================
    MOBILE MENU
 ===================================================== */
@@ -46,6 +47,17 @@ menuBtn.addEventListener(
     function () {
 
         navLinks.classList.toggle("active");
+
+
+        if (navLinks.classList.contains("active")) {
+
+            document.body.style.overflow = "hidden";
+
+        } else {
+
+            document.body.style.overflow = "";
+
+        }
 
     }
 );
@@ -61,9 +73,10 @@ closeMenu.addEventListener(
 
         navLinks.classList.remove("active");
 
+        document.body.style.overflow = "";
+
     }
 );
-
 
 /* =====================================================
    CLOSE MOBILE MENU WHEN LINK IS CLICKED
@@ -79,11 +92,12 @@ document
 
                 navLinks.classList.remove("active");
 
+                document.body.style.overflow = "";
+
             }
         );
 
     });
-
 
 
 
