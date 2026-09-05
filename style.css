@@ -204,30 +204,18 @@ header.scrolled {
 
 }
 /* =====================================================
-   CLOSE MOBILE MENU
+   CLOSE MENU
 ===================================================== */
 
 .close-menu {
 
     display: none;
 
-    position: absolute;
+    font-size: 13px;
 
-    top: 15px;
-
-    right: 20px;
-
-    background: transparent;
-
-    border: none;
-
-    color: #ffffff;
-
-    font-size: 28px;
+    color: #ddd;
 
     cursor: pointer;
-
-    z-index: 10;
 
     transition: 0.3s ease;
 
@@ -238,10 +226,7 @@ header.scrolled {
 
     color: var(--gold);
 
-    transform: rotate(90deg);
-
 }
-
 
 
 /* =====================================================
