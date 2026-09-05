@@ -203,6 +203,45 @@ header.scrolled {
     cursor: pointer;
 
 }
+/* =====================================================
+   CLOSE MOBILE MENU
+===================================================== */
+
+.close-menu {
+
+    display: none;
+
+    position: absolute;
+
+    top: 15px;
+
+    right: 20px;
+
+    background: transparent;
+
+    border: none;
+
+    color: #ffffff;
+
+    font-size: 28px;
+
+    cursor: pointer;
+
+    z-index: 10;
+
+    transition: 0.3s ease;
+
+}
+
+
+.close-menu:hover {
+
+    color: var(--gold);
+
+    transform: rotate(90deg);
+
+}
+
 
 
 /* =====================================================
@@ -1762,6 +1801,9 @@ footer {
             0.4s ease;
 
     }
+   .close-menu {
+    display: block;
+}
 
 
     .nav-links.active {
