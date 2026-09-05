@@ -10,6 +10,9 @@ const menuBtn =
 
 const navLinks =
     document.getElementById("navLinks");
+const closeMenu =
+    document.getElementById("closeMenu");
+
 
 
 /* =====================================================
@@ -49,7 +52,21 @@ menuBtn.addEventListener(
 
 
 /* =====================================================
-   CLOSE MOBILE MENU
+   CLOSE MOBILE MENU BUTTON
+===================================================== */
+
+closeMenu.addEventListener(
+    "click",
+    function () {
+
+        navLinks.classList.remove("active");
+
+    }
+);
+
+
+/* =====================================================
+   CLOSE MOBILE MENU WHEN LINK IS CLICKED
 ===================================================== */
 
 document
@@ -66,6 +83,8 @@ document
         );
 
     });
+
+
 
 
 
